@@ -13,7 +13,7 @@ class getProductsEvent extends ProductEvent {
 class loadMoreProductsEvent extends ProductEvent {
   final int param;
 
-  loadMoreProductsEvent({required this.param});
+  const loadMoreProductsEvent({required this.param});
 
   @override
   List<Object> get props => [];
