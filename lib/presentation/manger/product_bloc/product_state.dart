@@ -16,11 +16,6 @@ class PaginationLoading extends ProductState {
   List<Object> get props => [];
 }
 
-class PaginationLoading2 extends ProductState {
-  @override
-  List<Object> get props => [];
-}
-
 class PaginationSuccess extends ProductState {
   final List<ProductEntity> products;
   final ScrollController scrollController;
